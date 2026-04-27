@@ -198,7 +198,7 @@ sel_crit = st.sidebar.multiselect("Criticité", crit_levels, default=crit_levels
 # ---------------------------------------------------------------------------
 # En-tête
 # ---------------------------------------------------------------------------
-st.markdown('<p class="main-header">🚆 Maintenance Prédictive — ONCF</p>',
+st.markdown('<p class="main-header">🚆 Maintenance Prédictive </p>',
             unsafe_allow_html=True)
 st.markdown(
     '<p class="sub-header">Anticipation des défaillances sur le matériel roulant '
