@@ -1,5 +1,5 @@
 """
-Application Streamlit — Maintenance Prédictive ONCF
+Application Streamlit — Maintenance Prédictive 
 ====================================================
 Outil simple et interprétable pour anticiper les défaillances d'équipements
 ferroviaires à partir des relevés capteurs et de l'historique d'incidents.
@@ -20,7 +20,7 @@ from sklearn.metrics import roc_auc_score, accuracy_score
 # Configuration de la page
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Maintenance Prédictive ONCF",
+    page_title="Maintenance Prédictive ",
     page_icon="🚆",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -393,9 +393,9 @@ with tab4:
     **Méthodologie**
 
     - **Sources** :
-      - `oncf_condition` : 17 160 relevés capteurs (température, vibration, courant,
+      - `_condition` : 17 160 relevés capteurs (température, vibration, courant,
         pression, humidité, alarmes, backlog, score de santé).
-      - `oncf_assets` : caractéristiques des 220 équipements (âge, criticité,
+      - `_assets` : caractéristiques des 220 équipements (âge, criticité,
         politique de maintenance, environnement…).
       - `Feuil1` : KPIs historiques (MTBF, MTTR, nombre de pannes, disponibilité).
     - **Cible** : `FailureWithin30Days` issue des relevés capteurs.
@@ -417,4 +417,4 @@ with tab4:
     - 🟢 Normal : < 25 %
     """)
 
-    st.caption("Données : ONCF — Matériel roulant et ateliers (jeu fourni).")
+    st.caption("Données :  — Matériel roulant et ateliers (jeu fourni).")
