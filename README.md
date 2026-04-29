@@ -1,4 +1,4 @@
-# 🚆 Maintenance Prédictive — ONCF
+# 🚆 Maintenance Prédictive —
 
 Application Streamlit interactive pour l'anticipation des défaillances sur le matériel roulant ferroviaire, à partir de relevés capteurs et de l'historique d'incidents.
 
